@@ -46,7 +46,7 @@ var PsAction = function(actions) {
 	$.psAction = new PsAction();
 
 	$.addPsAction = function(actionName, options) {
-		$.psAction.addAction(actionName, options);
+		return $.psAction.addAction(actionName, options);
 	};
 
 	$.getPsAction = function(actionName) {
